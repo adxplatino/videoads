@@ -1,0 +1,49 @@
+.ads {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 684px;
+    height: 100%;
+    max-height: 428px;
+    text-align: center;
+    display: block;
+    z-index: 9999;
+    background:#000000;
+}
+
+.ads .block {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: 50%;
+    min-width: 300px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn-close-ads {
+    font-family: Arial;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 99999;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5B5B5B;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    display: block;
+}
+
+.adsdisplay {
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+}
