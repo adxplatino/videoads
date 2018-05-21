@@ -1,4 +1,4 @@
-var count = 12;
+var count = 5;
 function countDown() {
     if (count <= 0) {
         $('.btn-close-ads').html('Click para continuar >');
@@ -7,7 +7,7 @@ function countDown() {
          });
     } else {
         $('.btn-close-ads').html('Cargando... (' + count-- + ')');
-        setTimeout(countDown, 1000);
+        setTimeout(countDown, 2000);
     }
 }
 $(document).ready(function () {
